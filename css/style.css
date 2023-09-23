@@ -486,7 +486,8 @@ margin-bottom: 16px;
 .label-sub{
 
 }
-.footer-sub-container{}
+.footer-sub-container{
+}
 .footer-sub-title{
         font-weight: 500;
             font-size: 16px;
@@ -501,11 +502,17 @@ margin-bottom: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        background-color: #2E2F42;
         margin-right: 24px;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        color: #ffffff;
 }
 #sub-mail::placeholder{
-    color:  #FFF;
+color: #ffffff;
         font-family: "Roboto";
         font-size: 12px;
         font-style: normal;
@@ -525,9 +532,14 @@ margin-bottom: 16px;
             border-radius: 4px;
             color: #FFF;
             cursor: pointer;
+            min-width: 165px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
 }
 .icon-sub{
     fill: #FFF;
     cursor: pointer;
+    margin-left: 16px;
 }
 /* Modal */
