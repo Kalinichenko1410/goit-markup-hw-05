@@ -478,6 +478,10 @@ margin-bottom: 16px;
 .footer-socials-link:focus {
     background-color: #31d0aa;
 }
+/* Subscribe */
+.form-sub{
+    display: flex;
+}
 .footer-sub-container{}
 .footer-sub-title{
         font-weight: 500;
