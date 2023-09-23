@@ -481,9 +481,10 @@ margin-bottom: 16px;
 /* Subscribe */
 .form-sub{
     display: flex;
+    gap: 24px;
 }
 .label-sub{
-    
+
 }
 .footer-sub-container{}
 .footer-sub-title{
@@ -523,7 +524,7 @@ margin-bottom: 16px;
             border: 0;
             border-radius: 4px;
             color: #FFF;
-            cursor: ;
+            cursor: pointer;
 }
 .icon-sub{
     fill: #FFF;
