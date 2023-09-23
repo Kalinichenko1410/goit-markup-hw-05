@@ -472,3 +472,30 @@ margin-bottom: 16px;
 .footer-socials-link:focus {
     background-color: #31d0aa;
 }
+/* Modal */
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(46, 47, 66, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    position: relative;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+
+}
