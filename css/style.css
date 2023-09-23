@@ -24,6 +24,9 @@ img {
     width: 1158px;
     margin: 0 auto;
 }
+::placeholder{
+        font-family: "Roboto", sans-serif;
+}
 /* Header */
 .header {
 background-color: #FFF;
@@ -442,6 +445,9 @@ letter-spacing: 0.02em;
 color:#FFFFFF;
 margin-bottom: 16px;
 }
+.footer-social-container{
+    margin-right: 80px;
+}
 .footer-socials {
     display: flex;
     align-items: center;
@@ -472,30 +478,48 @@ margin-bottom: 16px;
 .footer-socials-link:focus {
     background-color: #31d0aa;
 }
-/* Modal */
-.backdrop {
-    position: fixed;
-    inset: 0;
-    background-color: rgba(46, 47, 66, 0.40);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-sub-container{}
+.footer-sub-title{
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-bottom: 16px;
 }
-
-.modal {
-    background-color: #FCFCFC;
+.input-sub-mail{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #fff;
     border-radius: 4px;
-    width: 408px;
-    height: 584px;
-    position: relative;
-    padding-left: 24px;
-    padding-right: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background-color: #2E2F42;
+        margin-right: 24px;
 }
-
-.modal-close {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-
-
+#sub-mail::placeholder{
+    color:  #FFF;
+        font-family: "Roboto";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.48px;
+        padding-left: 12px;
+    }
+.footer-sub-btn{
+    display: inline-flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+            background-color: #4D5AE5;
+            border: 0;
+            border-radius: 4px;
+            color: #FFF;
+            cursor: ;
 }
+.icon-sub{
+    fill: #FFF;
+    cursor: pointer;
+}
+/* Modal */
