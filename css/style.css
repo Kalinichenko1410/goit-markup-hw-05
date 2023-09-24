@@ -700,8 +700,6 @@ fill: transparent;
     font-family: "Roboto", sans-serif;
     display: block;
         padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
         border-radius: 4px;
             background: #4D5AE5;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -716,5 +714,5 @@ fill: transparent;
         line-height: 1.5;
         font-weight: 500;
         font-size: 16px;
-        
+        min-width: 169px;
 }
