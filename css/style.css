@@ -696,3 +696,6 @@ fill: transparent;
     border: none;
     fill: #F4F4FD;
 }
+.user-privacy:checked + .user-privacy-checkbox {
+    border: none;
+}
