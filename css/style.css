@@ -688,11 +688,11 @@ fill: transparent;
 .privacy-checkbox:checked{
     background-color: #404bbf;
 }
-#user-privacy:checked + .user-privacy-checkbox{
-   background-color: #404bbf;
-border: none;
-fill: #F4F4FD;
-}
 .privacy-link{
     color: #4d5ae5;
+}
+#user-privacy:checked + .user-privacy-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
