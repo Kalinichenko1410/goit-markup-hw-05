@@ -691,11 +691,8 @@ fill: transparent;
 .privacy-link{
     color: #4d5ae5;
 }
-#user-privacy:checked + .user-privacy-checkbox {
+#user-privacy:checked + label .user-privacy-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-}
-.user-privacy:checked + .user-privacy-checkbox {
-    border: none;
 }
